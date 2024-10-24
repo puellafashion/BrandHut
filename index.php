@@ -87,7 +87,7 @@
           <div class="swiper-slide">
             <div class="product-item image-zoom-effect link-effect">
               <div class="image-holder position-relative">
-                <a href="index.php">
+                <a href="Categories\dresses.php">
                   <img src="images/product-item-2.jpg" alt="categories" class="product-image img-fluid rounded">
                 </a>
               </div>
