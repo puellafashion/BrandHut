@@ -21,6 +21,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <?php include 'header.php'; ?>
@@ -31,21 +33,21 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <!-- Desktop Image -->
-          <img src="./images/frekins banner.webp" class="d-block w-100 d-none d-md-block" alt="...">
+          <img src="./images/4.jpg" class="d-block w-100 d-none d-md-block" alt="...">
           <!-- Mobile Image -->
-          <img src="./images/frekins banner1.1.webp" class="d-block w-100 d-md-none" alt="...">
+          <img src="./images/5.jpg" class="d-block w-100 d-md-none" alt="...">
         </div>
         <div class="carousel-item">
           <!-- Desktop Image -->
-          <img src="./images/frekins banner 2.webp" class="d-block w-100 d-none d-md-block" alt="...">
+          <img src="./images/4.jpg" class="d-block w-100 d-none d-md-block" alt="...">
           <!-- Mobile Image -->
-          <img src="./images/frekins banner 3.1.webp" class="d-block w-100 d-md-none" alt="...">
+          <img src="./images/5.jpg" class="d-block w-100 d-md-none" alt="...">
         </div>
         <div class="carousel-item">
           <!-- Desktop Image -->
-          <img src="./images/frekins banner 3.webp" class="d-block w-100 d-none d-md-block" alt="...">
+          <img src="./images/4.jpg" class="d-block w-100 d-none d-md-block" alt="...">
           <!-- Mobile Image -->
-          <img src="./images/frekins banner 2.1.webp" class="d-block w-100 d-md-none" alt="...">
+          <img src="./images/5.jpg" class="d-block w-100 d-md-none" alt="...">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

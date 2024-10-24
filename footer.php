@@ -1,11 +1,11 @@
-<footer id="footer" class="mt-5" style="background-color: #fbfafa;">
+<footer id="footer" style="background-color: #fbfafa;">
     <div class="container">
         <div class="row d-flex flex-wrap justify-content-between py-5">
             <div class="col-md-3 col-sm-6">
                 <div class="footer-menu footer-menu-001">
                     <div class="footer-intro mb-4">
                         <a class="navbar-brand" href="#">
-                            <img src="./images/Brandhut (logo).png" alt="" style="width: 100px; height: auto;">
+                            <img src="./images/Brandhut (logo).png" alt="" style="width: 150px; height: auto;">
                         </a>
                     </div>
                     <p>Gravida massa volutpat aenean odio. Amet, turpis erat nullam fringilla elementum diam in. Nisi, purus
@@ -66,14 +66,14 @@
         </div>
     </div>
     <div class="border-top py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 d-flex flex-wrap">
-                </div>
-                <div class="col-md-6 text-end">
-                    <p>© Copyright 2024 BrandHut. All rights reserved.</p>
-                </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4 text-center">
+                <p>© Copyright 2024 BrandHut. All rights reserved.</p>
             </div>
         </div>
+    </div>
+</div>
+
     </div>
 </footer>

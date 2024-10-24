@@ -118,9 +118,8 @@ a {
   text-decoration: none;
 }
 
-/* container fluid */
 .container-fluid {
-  /* width: 98%; */
+  width: 1185px;
   max-width: 1800px;
 }
 
@@ -1520,3 +1519,39 @@ a.btn-link.text-light:after {
 body {
   overflow-x: hidden; /* Prevents horizontal scrolling */
 }
+/* Wrapper for the search input and icon */
+.search-wrapper {
+  position: relative;
+  width: 250px; /* Adjust width as needed */
+}
+
+/* Styling the search input */
+.search-input {
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 40px; /* Space for the icon */
+  border: 1px solid #000;
+  outline: none;
+  width: 100%;
+}
+
+/* Styling the search button */
+.search-btn {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000;
+}
+
+/* Icon inside search button */
+.search-btn i {
+  font-size: 18px; /* Adjust the size of the icon */
+  color: #000;
+}
+
