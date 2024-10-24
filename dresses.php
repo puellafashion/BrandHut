@@ -9,6 +9,7 @@
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
 
+<?php include 'header.php'; ?>
 <body>
 
   <div class="container py-5">
@@ -20,26 +21,26 @@
       $products = [
         [
           'name' => 'Dark Florish Onepiece',
-          'front_image' => '../images/product-item-1.jpg',
-          'back_image' => '../images/product-item-1.jpg',
+          'front_image' => 'images/product-item-1.jpg',
+          'back_image' => 'images/product-item-1.jpg',
           'description' => 'A stylish dark florish onepiece for a modern look.'
         ],
         [
           'name' => 'Baggy Shirt',
-          'front_image' => '../images/product-item-1.jpg',
-          'back_image' => '../images/product-item-2.jpg',
+          'front_image' => 'images/product-item-1.jpg',
+          'back_image' => 'images/product-item-2.jpg',
           'description' => 'Comfortable baggy shirt for a casual day out.'
         ],
         [
           'name' => 'Cotton Off-White Shirt',
-          'front_image' => '../images/product-item-3.jpg',
-          'back_image' => '../images/product-item-3.jpg',
+          'front_image' => 'images/product-item-3.jpg',
+          'back_image' => 'images/product-item-3.jpg',
           'description' => 'Soft cotton off-white shirt, perfect for all seasons.'
         ],
         [
           'name' => 'Cotton Off-White Shirt',
-          'front_image' => '../images/product-item-3.jpg',
-          'back_image' => '../images/product-item-3.jpg',
+          'front_image' => 'images/product-item-3.jpg',
+          'back_image' => 'images/product-item-3.jpg',
           'description' => 'Soft cotton off-white shirt, perfect for all seasons.'
         ],
         // Add more products as needed
