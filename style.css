@@ -1555,3 +1555,24 @@ body {
   color: #000;
 }
 
+.about {
+  color: #000 !important;
+}
+
+.cards{
+  height: 300px; /* Adjust as needed */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+}
+
+
+.card {
+  transition: transform 0.3s ease; 
+}
+
+.card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
