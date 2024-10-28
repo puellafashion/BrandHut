@@ -1,6 +1,6 @@
 <?php
-  // Get the current file name
-  $currentPage = basename($_SERVER['PHP_SELF']);
+// Get the current file name
+$currentPage = basename($_SERVER['PHP_SELF']);
 ?>
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -22,30 +22,35 @@
           <a class="nav-link <?= ($currentPage == 'aboutUs.php') ? 'active' : '' ?>" href="./aboutUs.php">About</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle <?= ($currentPage == 'products.php') ? 'active' : '' ?>" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a class="nav-link dropdown-toggle <?= ($currentPage == 'products.php') ? 'active' : '' ?>" href="#"
+            role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Products
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="./dresses.php">Dresses</a></li>
             <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link <?= ($currentPage == 'services.php') ? 'active' : '' ?>" href="#">Services</a>
+          <a class="nav-link <?= ($currentPage == 'services.php') ? 'active' : '' ?>" href="./contactUs.php">Contact
+            Us</a>
         </li>
       </ul>
 
-      <!-- Search Bar (Visible only on large screens) -->
-      <form class="d-none d-lg-flex ms-auto search-form" role="search">
+      <form class="d-none d-lg-flex ms-auto search-form" role="search" method="GET" action="search.php">
         <div class="search-wrapper">
-          <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control search-input" name="query" type="search" placeholder="Search" aria-label="Search"
+            required>
           <button class="search-btn" type="submit">
             <i class="fas fa-search"></i>
           </button>
         </div>
       </form>
+
     </div>
   </div>
 </nav>
