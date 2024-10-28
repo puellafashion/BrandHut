@@ -1,10 +1,6 @@
 <?php
 // Database connection
-$conn = new mysqli("localhost", "root", "", "brandhut");
-
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+include 'db.php';
 
 // Add category
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["add_category"])) {
